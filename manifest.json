@@ -1,0 +1,14 @@
+{
+   "browser_action": {
+      "default_popup": "index.html"
+   },
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "description": "stocksHelper",
+   "icons": {
+      "128": "images/icons/snorlax.png"
+   },
+   "manifest_version": 2,
+   "name": "stocksHelper",
+   "permissions": [ "storage", "http://*.gtimg.cn/*" ],
+   "version": "1.9.2"
+}
