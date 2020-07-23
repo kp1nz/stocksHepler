@@ -358,7 +358,7 @@ function getLinkUrl(obj) {
                     .end().find(".price").html(price)
                     .end().find("#remark").html($(this).attr("title"));
                 $(".mask").show();
-            });
+            }).delegate("");
             $(".remark-form").delegate(".close", "click", function (e) {
                 $(e.delegateTarget).hide();
                 $(".mask").hide();

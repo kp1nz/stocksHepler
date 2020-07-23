@@ -33,7 +33,8 @@
             }
             $('#setting .iconlist').html(html.join(""));
         }
-        var traverseOp = function () {
+        var
+        traverseOp = function () {
             var values = ['0.25','0.5','0.75','1']
             var oph = []
             while (values.length){
@@ -46,11 +47,11 @@
             $('.op').on('click',function (e) {
                 $("#op").toggle();
                 $('.mask').toggle();
-            })
+            });
             $('#op').delegate('.close','click',function (e) {
                 $('#op').hide();
                 $('.mask').hide();
-            })
+            });
             $('#op').delegate('.op','click',function (e) {
                 alert('.op');
             })
