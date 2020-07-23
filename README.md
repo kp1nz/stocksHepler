@@ -1,4 +1,4 @@
-# 股票小助手 Chrome 插件
+# StocksHelper Chrome Plugin
 
 
 此插件采用腾讯股票数据源。
